@@ -159,17 +159,7 @@
     CreateLoop();
   }
 
-  // Accordion
-  $(".saas_accordion_item").each(function () {
-    var $accordion = $(".saas_accordion_item");
-    if ($accordion.length > 0) {
-      $(".saas_accordion_item .accordion-item").first().addClass("is-active");
-      $accordion.find(".accordion-item").on("click", function () {
-        $(this).siblings(".accordion-item").removeClass("is-active");
-        $(this).toggleClass("is-active");
-      });
-    }
-  });
+  // Accordion custom code removed to allow Bootstrap 5 collapse to function correctly.
 
   // Nice Select
   if ($(".select").length > 0) {
@@ -348,15 +338,5 @@
   }
   bodyScrollAnimation();
 
-  // Preloader
-
-  function loader() {
-    $(window).on("load", function () {
-      // Animate loader off screen
-      $(".preloader").addClass("loaded");
-      $(".preloader").delay(600).fadeOut();
-    });
-  }
-
-  loader();
+  // Preloader removed for CRO & UX speed improvements
 })(jQuery);
