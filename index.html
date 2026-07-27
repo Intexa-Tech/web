@@ -2,11 +2,101 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- =========================
+         CONFIGURACIÓN BÁSICA
+    ========================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Desarrollo de Software a la Medida | ERP, Páginas Web y Apps | INTEXA Costa Rica</title>
+
+    <meta name="description"
+        content="Empresa de desarrollo de software en Costa Rica. Creamos software a la medida, sistemas ERP, páginas web, aplicaciones empresariales y soluciones para automatizar procesos y aumentar la productividad.">
+
+    <meta name="keywords" content="
+        desarrollo de software,
+        software a la medida,
+        empresa de software,
+        empresa de software Costa Rica,
+        desarrollo web,
+        desarrollo de páginas web,
+        páginas web profesionales,
+        desarrollo de aplicaciones,
+        desarrollo de aplicaciones web,
+        desarrollo de sistemas,
+        sistemas empresariales,
+        software empresarial,
+        ERP,
+        sistema ERP,
+        automatización de procesos,
+        transformación digital,
+        consultoría tecnológica,
+        desarrollo tecnológico,
+        software personalizado,
+        landing pages,
+        programación,
+        desarrollo PHP,
+        desarrollo Laravel,
+        desarrollo MySQL,
+        empresa de desarrollo web,
+        empresa tecnológica,
+        INTEXA
+    ">
+
+    <meta name="author" content="INTEXA">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0F172A">
+
+    <link rel="canonical" href="https://intexacr.com/">
+
+    <!-- =========================
+         FAVICON
+    ========================== -->
+
     <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <!-- Bootstrap CSS -->
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <!-- =========================
+         OPEN GRAPH
+    ========================== -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="INTEXA">
+    <meta property="og:locale" content="es_CR">
+    <meta property="og:url" content="https://intexacr.com/">
+
+    <meta property="og:title" content="Desarrollo de Software a la Medida | ERP, Desarrollo Web y Automatización">
+
+    <meta property="og:description"
+        content="Creamos software a la medida, sistemas ERP, aplicaciones web y páginas web para empresas que desean automatizar procesos y crecer mediante tecnología.">
+
+    <meta property="og:image" content="https://intexacr.com/assets/img/logo-white.png">
+
+    <meta property="og:image:alt" content="INTEXA Desarrollo de Software">
+
+    <!-- =========================
+         TWITTER
+    ========================== -->
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="Desarrollo de Software a la Medida | INTEXA">
+
+    <meta name="twitter:description"
+        content="Software a la medida, sistemas ERP, desarrollo web y automatización de procesos empresariales.">
+
+    <meta name="twitter:image" content="https://intexacr.com/assets/img/logo-white.png">
+
+    <!-- =========================
+         PERFORMANCE
+    ========================== -->
+
+    <link rel="preload" href="assets/img/logo-white.png" as="image">
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
     <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendors/themify-icon/themify-icons.css" rel="stylesheet">
     <link href="assets/vendors/icomoon/style.css" rel="stylesheet">
@@ -14,62 +104,81 @@
     <link href="assets/vendors/slick/slick.css" rel="stylesheet">
     <link href="assets/vendors/slick/slick-theme.css" rel="stylesheet">
     <link href="assets/vendors/animation/animate.css" rel="stylesheet">
-    <link rel="canonical" href="index.html">
-    <meta name="description"
-        content="INTEXA desarrolla software a la medida, sistemas ERP y soluciones digitales para automatizar procesos, mejorar el control operativo y hacer crecer tu empresa.">
-    <meta name="keywords"
-        content="INTEXA, software a la medida, ERP, desarrollo web, automatización, transformación digital, Costa Rica, sistemas empresariales, consultoría tecnológica">
-    <meta name="author" content="INTEXA">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="theme-color" content="#0F172A">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="INTEXA">
-    <meta property="og:title" content="INTEXA | Software a la medida y ERP para empresas">
-    <meta property="og:description"
-        content="Automatiza tu empresa con software a la medida, sistemas ERP y soluciones digitales diseñadas para optimizar procesos y reducir tareas manuales.">
-    <meta property="og:image" content="assets/img/logo-white.png">
-    <meta property="og:image:alt" content="Logo de INTEXA">
-    <meta property="og:locale" content="es_CR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="INTEXA | Software a la medida y ERP para empresas">
-    <meta name="twitter:description"
-        content="Automatiza tu empresa con software a la medida, sistemas ERP y soluciones digitales diseñadas para optimizar procesos y reducir tareas manuales.">
-    <meta name="twitter:image" content="assets/img/logo-white.png">
+
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/03f5a87914.js" crossorigin="anonymous"></script>
-    <title>INTEXA | Software a la medida y ERP para empresas</title>
+
+    <!-- =========================
+         SCHEMA SEO
+    ========================== -->
+
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "INTEXA",
-        "description": "INTEXA desarrolla software a la medida, sistemas ERP y soluciones digitales para automatizar procesos empresariales.",
-        "logo": "assets/img/logo-white.png",
-        "email": "info@intexa.com",
-        "telephone": "+50670473684"
+      "@context":"https://schema.org",
+      "@type":"SoftwareCompany",
+      "name":"INTEXA",
+      "url":"https://intexacr.com",
+      "logo":"https://intexacr.com/assets/img/logo-white.png",
+      "description":"Empresa especializada en desarrollo de software a la medida, sistemas ERP, desarrollo web, páginas web y automatización de procesos empresariales.",
+      "email":"info@intexa.com",
+      "telephone":"+50670473684",
+      "address":{
+        "@type":"10106",
+        "addressCountry":"CR"
+      },
+      "areaServed":[
+        "Costa Rica",
+        "Latinoamérica"
+      ],
+      "knowsAbout":[
+        "Software a la medida",
+        "ERP",
+        "Desarrollo Web",
+        "Desarrollo de Aplicaciones",
+        "Landing Pages",
+        "Automatización de Procesos",
+        "Transformación Digital",
+        "Consultoría Tecnológica"
+      ]
     }
     </script>
 
-    <!-- Meta Pixel Code -->
+    <!-- =========================
+         META PIXEL
+    ========================== -->
+
     <script>
         !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
+            if (f.fbq) return;
+            n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
+
         fbq('init', '1778693780176274');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1778693780176274&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
+
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1778693780176274&ev=PageView&noscript=1">
+    </noscript>
+
 </head>
 
 <body data-scroll-animation="true">
